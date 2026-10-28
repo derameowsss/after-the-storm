@@ -1,0 +1,10 @@
+{
+  "description": "A heartfelt digital gift for someone finishing an exam, with a personal love letter, comforting notes, and a virtual hug to help them relax and feel loved.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
