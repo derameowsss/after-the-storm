@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#EAF5FF" />
+    <meta
+      name="description"
+      content="After the Storm — a little blue gift made with love."
+    />
+    <title>After the Storm — A Little Gift for You</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true">
+      <span class="star star-one">✦</span><span class="star star-two">·</span>
+      <span class="star star-three">✦</span><span class="star star-four">·</span>
+    </div>
+
+    <main>
+      <section class="intro section is-visible" id="gift" aria-labelledby="gift-title">
+        <div class="intro-copy">
+          <p class="eyebrow">A little something for you</p>
+          <h1 id="gift-title">You made it,<br /><em>my love.</em></h1>
+          <p class="lead">
+            You’ve made it through a big day. Now, let me take care of your heart
+            for a moment.
+          </p>
+        </div>
+
+        <button class="gift-button" id="openGift" type="button" aria-label="Open your little gift">
+          <span class="gift-glow"></span>
+          <span class="gift-box" aria-hidden="true">
+            <span class="gift-lid"><span class="gift-bow"></span></span>
+            <span class="gift-body"></span>
+            <span class="gift-ribbon"></span>
+          </span>
+          <span class="gift-instruction">tap to open your little gift <b>♡</b></span>
+        </button>
+        <div class="opening-hearts" id="openingHearts" aria-hidden="true"></div>
+        <p class="made-with">made with all my love ♡</p>
+      </section>
+
+      <section class="letter-section section" id="letter" aria-labelledby="letter-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">After the storm</p>
+          <h2 id="letter-title">You can breathe now.</h2>
+          <span class="heart-rule" aria-hidden="true">— ♡ —</span>
+        </div>
+
+        <article class="letter-card reveal">
+          <span class="paper-heart" aria-hidden="true">♡</span>
+          <p>Hawooooo lagiii istriiii akuuu sayanggggg,</p>
+          <p>alhamdulillah sayanggkkuu, akhirnya selesai juga yah sayanggg. 🥹💙</p>
+          <p>mungkin hari ini nggak sepenuhnya mudah buat kamu. mungkin ada bagian yang bikin kamu yakin, ada juga yang bikin kamu kepikiran. tapi apa pun yang kamuuu rasain saat ini, aku harap kamu bisa kasih diri kamu waktu buat istirahat sayanggg.</p>
+          <p>aku bangga sama kamu, bukan cuma karena hasil yang nanti kamu dapet, tapi karena kamu udah sampai di titik ini. kamu udah jalan sejauh ini, udah berusaha, udah menghadapi hari yang mungkin bikin kamu deg-degan. <em>dan itu penting sayanggg.</em></p>
+          <p>hasil TKA nantiii nggak akan pernah jadi satu-satunya hal yang menentukan seberapa berharganya kamu. satu ujian nggak bisa merangkum semua hal baik di dalam diri kamu, semua mimpi kamu, atau semua kemungkinan indah yang masih menunggu kamu di depan.</p>
+          <p>jadi sekarang, tarik napass pelan-pelan yah sayanggg. minum dulu, makan yang kamu suka, rebahan kalau capek. kamuuu nggak harus mikirin semuanya malam ini. <em>kamu udah berusaha sebaik mungkin dan kamu berhak buat istirahat sayanggkkuu.</em></p>
+          <p> mungkin aku belum ada tepat di sebelah kamuuu buat meluk kamu sekarang, tapi aku harap halaman kecil ini bisa jadi pengingat kalau ada seseorang yang selalu berharap baik buat kamu, yang sayang sama kamu, dan yang bangga sama kamu.</p>
+          <p>aiiwopppyuuu, dedeee.♡</p>
+          <p class="signature">-Sundaii</p>
+        </article>
+        <button class="primary-button reveal" data-scroll="notes" type="button">there’s more for you <span>↗</span></button>
+      </section>
+
+      <section class="notes-section section" id="notes" aria-labelledby="notes-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Little notes for your heart</p>
+          <h2 id="notes-title">For whatever you’re feeling.</h2>
+          <p>Open whichever note your heart needs right now.</p>
+        </div>
+        <div class="notes-grid">
+          <button class="note-card reveal" type="button" data-note="tired">
+            <span class="note-number">01</span><span class="note-icon">☾</span>
+            <strong>When you’re tired</strong><small>a little reminder to rest</small>
+            <span class="open-label">open this note <i>→</i></span>
+          </button>
+          <button class="note-card reveal" type="button" data-note="worried">
+            <span class="note-number">02</span><span class="note-icon">✦</span>
+            <strong>When you’re worried</strong><small>about the results</small>
+            <span class="open-label">open this note <i>→</i></span>
+          </button>
+          <button class="note-card reveal" type="button" data-note="proud">
+            <span class="note-number">03</span><span class="note-icon">♡</span>
+            <strong>When you forget</strong><small>how proud I am of you</small>
+            <span class="open-label">open this note <i>→</i></span>
+          </button>
+          <button class="note-card reveal" type="button" data-note="hug">
+            <span class="note-number">04</span><span class="note-icon">∞</span>
+            <strong>When you need</strong><small>a really big hug</small>
+            <span class="open-label">open this note <i>→</i></span>
+          </button>
+        </div>
+        <button class="primary-button reveal" data-scroll="hug" type="button">one last thing, dedeee ♡</button>
+      </section>
+
+      <section class="hug-section section" id="hug" aria-labelledby="hug-title">
+        <div class="hug-illustration reveal" aria-hidden="true">
+          <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+          <span class="hug-heart">♡</span><span class="mini-heart h-one">♡</span>
+          <span class="mini-heart h-two">♡</span><span class="mini-heart h-three">♡</span>
+        </div>
+        <div class="hug-copy reveal">
+          <p class="eyebrow">One last thing</p>
+          <h2 id="hug-title">Ciniii <em>cayangggkkuu.</em></h2>
+          <p>Imagine me holding you close, letting you rest your head on my chest, and telling you that you did well. You don’t have to say anything. Just stay here for a little while.</p>
+          <button class="primary-button hug-button" id="sendHug" type="button">send me a virtual hug ♡</button>
+          <p class="hug-response" id="hugResponse" role="status">hug received and returned a thousand times, dedeee ♡</p>
+          <p class="final-message">apapun yang akan kamu hadapi selanjutnya,<br /><strong>kamu nggak perlu hadapi itu semua sendirian.</strong></p>
+          <button class="text-button" data-scroll="letter" type="button">↑ return to the love letter</button>
+        </div>
+        <div class="hug-burst" id="hugBurst" aria-hidden="true"></div>
+      </section>
+    </main>
+
+    <div class="modal" id="noteModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" aria-label="Close note" data-close-modal>×</button>
+        <p class="eyebrow">A note for you</p>
+        <span class="modal-icon" id="modalIcon">♡</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalMessage"></p>
+        <span class="heart-rule" aria-hidden="true">— ♡ —</span>
+      </div>
+    </div>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
